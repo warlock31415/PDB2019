@@ -359,6 +359,10 @@ UsedLibrary="C:/Users/7410983/Documents/eagle/SparkFun-Eagle-Libraries-master/Sp
 UsedLibrary="C:/Users/7410983/Documents/eagle/Micah's Shit For Pratik.lbr"
 UsedLibrary="C:/Users/7410983/Documents/eagle/SparkFun-Eagle-Libraries-master/SparkFun-Switches.lbr"
 UsedLibrary="C:/Users/7410983/Documents/eagle/Bumper.lbr"
+UsedLibrary="C:/EAGLE 8.7.1/lbr/12buck.lbr"
+UsedLibrary="C:/Users/7410983/Documents/eagle/Arduino-Eagle-Cad-Library-master/Arduino-clone.lbr"
+UsedLibrary="C:/Users/7410983/Documents/eagle/3-644892-8.lbr"
+UsedLibrary="C:/Users/7410983/Documents/eagle/5-146259-6.lbr"
 
 [Win_1]
 Type="Control Panel"
