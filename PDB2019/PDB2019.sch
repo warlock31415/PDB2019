@@ -4516,7 +4516,7 @@ http://www.xganon.com</description>
 <part name="U2" library="My_lbr" deviceset="RJK0651DPB-00J5" device="LFPAK-M"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" package3d_urn="urn:adsk.eagle:package:13279/1" value=".1uF"/>
-<part name="U$1" library="My_lbr" deviceset="MBRS1100T3G" device=""/>
+<part name="D1" library="My_lbr" deviceset="MBRS1100T3G" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" package3d_urn="urn:adsk.eagle:package:13275/1" value="10k"/>
 <part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" package3d_urn="urn:adsk.eagle:package:13279/1" value="4.7uF"/>
@@ -4610,7 +4610,7 @@ http://www.xganon.com</description>
 <instance part="U2" gate="A" x="27.94" y="48.26"/>
 <instance part="X_5" gate="G$1" x="35.56" y="33.02"/>
 <instance part="C2" gate="G$1" x="58.42" y="66.04" rot="R180"/>
-<instance part="U$1" gate="A" x="50.8" y="81.28" smashed="yes" rot="R270">
+<instance part="D1" gate="A" x="50.8" y="81.28" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.5338" y="73.2028" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="55.6006" y="78.8924" size="3.4798" layer="95" ratio="10" rot="SR0"/>
 </instance>
@@ -4757,7 +4757,7 @@ http://www.xganon.com</description>
 <pinref part="U1" gate="A" pin="PLLIN/MODE"/>
 <wire x1="12.7" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
 <label x="17.78" y="96.52" size="1.778" layer="95"/>
-<pinref part="U$1" gate="A" pin="2"/>
+<pinref part="D1" gate="A" pin="2"/>
 <wire x1="17.78" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="81.28" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
@@ -4966,9 +4966,10 @@ http://www.xganon.com</description>
 <pinref part="U1" gate="A" pin="BOOST"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="A" pin="1"/>
+<pinref part="D1" gate="A" pin="1"/>
 <wire x1="50.8" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <junction x="50.8" y="71.12"/>
+<label x="33.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
